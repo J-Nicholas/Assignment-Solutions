@@ -1,7 +1,9 @@
 #ifndef CARD_FUNCTIONS_H
 #define CARD_FUNCTIONS_H
 #include "card_structs.h"
-
+void printMessage(const char *s) {			// This is just a dummy function to test out source control
+	printf("%s\n", s);
+}
 
 // compares the FACE values of two cards (TWO is lowest, ACE is highest)
 // returns pointer to string containing name of winner: "You" or "Dealer" (or "Draw" if the face values are the same)
